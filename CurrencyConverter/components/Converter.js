@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { View, Text } from 'react-native';
+import { View, TextInput, Button, Text } from 'react-native';
+import { fetchExchangeRate } from '../utils/api'
 
 const Converter = () => {
     const [fromCurrency, setFromCurrency] = useState('USD');
@@ -14,7 +15,24 @@ const Converter = () => {
 
     return (
         <View>
-            <Text>Currency Converter Placeholder!</Text>
+             <TextInput
+                placeholder="From Currency"
+                value={fromCurrency}
+                onChangeText={setFromCurrency}
+            />
+            <TextInput
+                placeholder="To Currency"
+                value={toCurrency}
+                onChangeText={setToCurrency}
+            />
+            <TextInput
+                placeholder="Amount"
+                keyboardType="numeric"
+                value={amount}
+                onChangeText={setAmount}
+            />
+            <Button title="Convert" onPress={convertCurrency} />
+            {convertedAmount && <Text>Converted Amount: {convertedAmount}</Text>}
         </View>
     );
 };
