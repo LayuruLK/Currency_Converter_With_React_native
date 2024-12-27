@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import  Converter  from "../components/Converter"
 
 export default function Index() {
   return (
@@ -9,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Hello World</Text>
+      <Converter/>
     </View>
   );
 }
