@@ -10,7 +10,6 @@ const Converter = () => {
     const [isLoading, setIsLoading] = useState(false);
 
     const convertCurrency = async () => {
-        // Input validation
         if (!amount || isNaN(amount) || parseFloat(amount) <= 0) {
             Alert.alert('Invalid Input', 'Please enter a valid amount');
             return;
