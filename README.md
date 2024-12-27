@@ -26,10 +26,8 @@ The **Currency Converter App** is a simple and interactive React Native applicat
 
 ## Screenshots
 
-![Home Screen](CurrencyConverter/screenshots/ss2.jpeg) 
 <img src="CurrencyConverter/screenshots/ss2.jpeg" alt="Home Screen" width="400"/>
 *The main screen of the Currency Converter App* 
-![Erro handling](CurrencyConverter/screenshots/ss1.jpeg)  
 <img src="CurrencyConverter/screenshots/ss1.jpeg" alt="Error Handling" width="400"/>
 *The Error(Alert) screen of the Currency Converter App*
 
