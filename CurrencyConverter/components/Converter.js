@@ -7,6 +7,11 @@ const Converter = () => {
     const [amount, setAmount] = useState('');
     const [convertedAmount, setConvertedAmount] = useState(null);
 
+    const convertCurrency = async () => {
+        const rate = await fetchExchangeRate(fromCurrency, toCurrency);
+        setConvertedAmount((rate * parseFloat(amount)).toFixed(2));
+    };
+
     return (
         <View>
             <Text>Currency Converter Placeholder!</Text>
