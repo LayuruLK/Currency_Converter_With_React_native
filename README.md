@@ -183,7 +183,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ---
 
 ## Author
+ 
+GitHub: [GitHub Profile](https://github.com/LayuruLK)
 
-**Your Name**  
-GitHub: [GitHub Profile](https://github.com/LayuruLK)  
 Email: layurulakvidukarunathilaka@gmail.com
+
